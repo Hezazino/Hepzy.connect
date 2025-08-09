@@ -1,0 +1,104 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-align: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #eae7e7;
+
+/*Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-inline: 10px;
+  background: linear-gradient(to left, #c9cbcb 40%, #110000 60%);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+  .logo{
+  width: 100px;
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+
+.Bar a{
+  justify-content: space-between;
+  text-align: center;
+  margin-left:10px;
+  padding:10px ;
+  color:#6b580e;
+  font-weight: bold;
+}
+.Circle {
+    height: 600px;
+    width: 600px;
+    border-radius: 400px;
+    opacity: 0.7;
+}
+.Bar :hover {
+  color:   #c69f06;
+  font-size: 20px;
+}
+/* Hero section*/
+.hero{
+background: linear-gradient(to left, #c9cbcb 40%, #110000 60%);
+}
+.hero-content {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 1200px; 
+margin-left: 80px;
+}
+
+.text p{
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 50px;
+}
+.text span{
+  color: #0e686b;
+  border: none;
+}
+/* Brand Section*/
+.brand{
+background: linear-gradient(to left, #c9cbcb 40%, #110000 60%);  
+color: white;}
+
+.brand a {
+  color: blue;
+}
+
+.brand span{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: blue;
+}
+
+.text button{
+  background-color: rgb(195, 244, 244);
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 200px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+}
+/*Descript Section*/
+.Descript{
+  justify-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
